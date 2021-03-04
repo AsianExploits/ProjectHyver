@@ -1,0 +1,72 @@
+-- RP Name Loader
+
+local args = {
+	[1] = "Hyver",
+	[2] = "Loading UI"
+}
+
+game:GetService("ReplicatedStorage").RemoteFunctions.NameChangerRequest:InvokeServer(unpack(args))
+wait(0.5)
+
+local args = {
+	[1] = "Hyver",
+	[2] = "Loading UI.."
+}
+
+game:GetService("ReplicatedStorage").RemoteFunctions.NameChangerRequest:InvokeServer(unpack(args))
+
+-- ProjectHyver
+
+local args = {
+	[1] = "Hyver",
+	[2] = "Loading UI..."
+}
+
+game:GetService("ReplicatedStorage").RemoteFunctions.NameChangerRequest:InvokeServer(unpack(args))
+wait(0.5)
+
+local args = {
+	[1] = "Hyver",
+	[2] = "Loading UI..."
+}
+
+game:GetService("ReplicatedStorage").RemoteFunctions.NameChangerRequest:InvokeServer(unpack(args))
+wait(0.5)
+local args = {
+	[1] = "Hyver",
+	[2] = "Checking version.."
+}
+
+game:GetService("ReplicatedStorage").RemoteFunctions.NameChangerRequest:InvokeServer(unpack(args))
+wait(0.3)
+local args = {
+	[1] = "Hyver",
+	[2] = "Checking version."
+}
+
+game:GetService("ReplicatedStorage").RemoteFunctions.NameChangerRequest:InvokeServer(unpack(args))
+wait(0.3)
+local args = {
+	[1] = "Hyver",
+	[2] = "Hyver: Latest version"
+}
+
+game:GetService("ReplicatedStorage").RemoteFunctions.NameChangerRequest:InvokeServer(unpack(args))
+wait(0.3)
+local args = {
+	[1] = "Hyver",
+	[2] = "DeveIoped by: Phyver 9509  || RhyverSK 0001 || PassTheBIunt 9509"
+}
+
+game:GetService("ReplicatedStorage").RemoteFunctions.NameChangerRequest:InvokeServer(unpack(args))
+wait(2)
+game:GetService("ReplicatedStorage").RemoteFunctions.RemoveRPName:FireServer()
+wait(0.3)
+local args = {
+	[1] = "Hyver",
+	[2] = "Version 1.10 - Latest Version | Whitelisted"
+}
+
+game:GetService("ReplicatedStorage").RemoteFunctions.NameChangerRequest:InvokeServer(unpack(args))
+wait(2)
+game:GetService("ReplicatedStorage").RemoteFunctions.RemoveRPName:FireServer()
